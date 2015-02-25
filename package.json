@@ -1,0 +1,46 @@
+{
+  "name": "passport-keycloak-oath",
+  "version": "0.0.1",
+  "description": "Keycloak OAuth 2.0 authentication strategy authenticates users using a Keycloak server and OAuth 2.0 tokens. The strategy can be manually configured, or can use a keycloak.json file to configure the connection.",
+  "main": "./lib/passport-keycloak-oauth/index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "author": "Kevin Horvatin <kevin.horvatin@software.dell.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KevinHorvatin/passport-keycloak-oauth2.git"
+  },
+  "keywords": [
+    "keycloak",
+    "passport",
+    "oauth2"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinHorvatin/passport-keycloak-oauth2/issues"
+  },
+  "homepage": "https://github.com/KevinHorvatin/passport-keycloak-oauth2",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "jsonwebtoken": "^3.2.2",
+    "object-merge": "^2.5.1",
+    "passport-oauth": "~0.1.4",
+    "pkginfo": "0.2.x",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-istanbul-coverage": "^0.1.1",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^1.0.0",
+    "nock": "^0.59.1",
+    "should": "^5.0.1",
+    "time-grunt": "^1.0.0"
+  }
+}

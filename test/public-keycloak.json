@@ -1,0 +1,8 @@
+{
+  "realm": "keycloakRealm",
+  "realm-public-key": "CERTIFICATE/VALUE",
+  "auth-server-url": "https://keycloak.example.com/auth",
+  "ssl-required": "external",
+  "resource": "keycloak-resource",
+  "public-client": true
+}
