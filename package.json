@@ -1,5 +1,5 @@
 {
-  "name": "passport-keycloak-oath",
+  "name": "passport-keycloak-oauth2",
   "version": "0.0.1",
   "description": "Keycloak OAuth 2.0 authentication strategy authenticates users using a Keycloak server and OAuth 2.0 tokens. The strategy can be manually configured, or can use a keycloak.json file to configure the connection.",
   "main": "./lib/passport-keycloak-oauth/index.js",
